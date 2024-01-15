@@ -1,0 +1,16 @@
+{
+  "public/images/vegetable-seller.jpg": {
+    "file": "assets/vegetable-seller-WCA5cJop.jpg",
+    "src": "public/images/vegetable-seller.jpg"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-2LMXZeul.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-ecWDpuvf.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}
