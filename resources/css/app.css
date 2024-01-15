@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cover-image {
+    background-size: cover;
+    background-position: center;
+    background-image: url("../../public/images/vegetable-seller.jpg");
+}
+
+.logo-rotate-animation {
+    animation-delay: 2s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: logo-rotate-animation;
+}
+
+@keyframes logo-rotate-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.emoji-animation {
+    animation-duration: 4s;
+    animation-name: emoji-animation;
+    animation-iteration-count: infinite;
+}
+
+@keyframes emoji-animation {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+    50% {
+        transform: scale(1.5) rotate(20deg);
+    }
+    100% {
+        transform: scale(1) rotate(0deg);
+    }
+}
+
+.button-animation {
+    animation-duration: 0.7s;
+    animation-direction: alternate;
+    animation-name: button-animation;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes button-animation {
+    0% {
+        transform: translateY(0) scale(1);
+        box-shadow: 0 0 0 rgba(255, 255, 255, 0.2);
+    }
+    100% {
+        transform: translateY(-5px) scale(1.05);
+        box-shadow: 0 12px 4px rgba(255, 255, 255, 0.1);
+    }
+}
+
+.social-icon-animation-1 {
+    animation-duration: 0.7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-name: social-icon-animation-1;
+}
+
+@keyframes social-icon-animation-1 {
+    0% {
+        transform: translateY(0) scale(1);
+    }
+    100% {
+        transform: translateY(-5px) scale(1.05);
+    }
+}
+
+.social-icon-animation-2 {
+    animation-delay: 1s;
+    animation-duration: 0.7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-name: social-icon-animation-1;
+}
+
+@keyframes social-icon-animation-2 {
+    0% {
+        transform: translateY(0) scale(1);
+    }
+    100% {
+        transform: translateY(-5px) scale(1.05);
+    }
+}
+
+.social-icon-animation-3 {
+    animation-delay: 1s;
+    animation-duration: 0.7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-name: social-icon-animation-3;
+}
+
+@keyframes social-icon-animation-3 {
+    0% {
+        transform: translateY(0) scale(1);
+    }
+    100% {
+        transform: translateY(-5px) scale(1.05);
+    }
+}
