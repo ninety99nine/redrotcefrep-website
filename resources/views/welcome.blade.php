@@ -17,7 +17,7 @@
 
                     <div class="relative w-40 h-40 mt-20 scale-125">
                         <img class="absolute w-36 z-10 top-2 right-2 logo-rotate-animation" src="{{ asset('/images/app-logo-black-transparent.png') }}">
-                        <img class="absolute z-20" src="{{ asset('/images/magic-spinning-particles.gif') }}">
+                        <img class="absolute z-20" src="{{ asset('/images/magic-spinning-particles-compressed.gif') }}" loading="lazy">
                     </div>
 
                     <div class="relative">
