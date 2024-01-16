@@ -28,7 +28,7 @@
                                 <span class="text-gold-500 lg:mr-4 md:mr-3">HOME</span>
                             </span>
                             <span class="block font-extrabold typewrite" data-period="2000" data-type='[ "*250#", "#OpenShop", "#receiveOrders", "#takePayments", "#growFollowers" ]'>
-                                <span class="wrap"></span>
+                                <span class="wrap">*250#</span>
                             </span>
 
                         </h1>
