@@ -1,15 +1,27 @@
 {
-  "public/images/vegetable-seller.jpg": {
-    "file": "assets/vegetable-seller-WCA5cJop.jpg",
-    "src": "public/images/vegetable-seller.jpg"
+  "public/images/phone-wallpaper.jpg": {
+    "file": "assets/phone-wallpaper-Fm6aSECt.jpg",
+    "src": "public/images/phone-wallpaper.jpg"
+  },
+  "public/images/seller-1.jpg": {
+    "file": "assets/seller-1-dq4hCs-Y.jpg",
+    "src": "public/images/seller-1.jpg"
+  },
+  "public/images/seller-2.jpeg": {
+    "file": "assets/seller-2-SI83w4DC.jpeg",
+    "src": "public/images/seller-2.jpeg"
+  },
+  "public/images/seller-3.jpeg": {
+    "file": "assets/seller-3-DJppUrC1.jpeg",
+    "src": "public/images/seller-3.jpeg"
   },
   "resources/css/app.css": {
-    "file": "assets/app-2LMXZeul.css",
+    "file": "assets/app-Rh1Oaqky.css",
     "isEntry": true,
     "src": "resources/css/app.css"
   },
   "resources/js/app.js": {
-    "file": "assets/app-ecWDpuvf.js",
+    "file": "assets/app-IhPSrMkd.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   }

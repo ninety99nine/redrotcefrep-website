@@ -18,7 +18,8 @@
         <meta name="theme-color" content="#ffffff">
         <!-- End: Favicon Generator Settings  -->
 
-        @vite('resources/css/app.css')
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        @stack('scripts')
 
     </head>
     <body>

@@ -2,10 +2,53 @@
 @tailwind components;
 @tailwind utilities;
 
-.cover-image {
+/**
+ *  Reference: https://tailwindcss.com/docs/adding-custom-styles#adding-custom-utilities
+ */
+@layer utilities {
+    .scale-down-phone {
+        transform: scale(0.8);
+    }
+}
+
+.cover-image-1 {
     background-size: cover;
     background-position: center;
-    background-image: url("../../public/images/vegetable-seller.jpg");
+    background-attachment: fixed;
+    background-image: url("../../public/images/seller-1.jpg");
+}
+
+.cover-image-1x {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url("../../public/images/seller-1.jpg");
+}
+
+.cover-image-2 {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url("../../public/images/seller-2.jpeg");
+}
+
+.cover-image-3 {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url("../../public/images/seller-3.jpeg");
+}
+
+.image-soft-edges:before {
+    display:block;
+    content:'';
+    width:100%;
+    height:100%;
+    position:absolute;
+    border-radius: 1em;
+    box-shadow:inset 0px 0px 6px 6px rgb(0, 0, 0.6);
+    -moz-box-shadow:inset 0px 0px 6px 6px rgba(0, 0, 0.6);
+    -webkit-box-shadow:inset 0px 0px 6px 6px rgb(28, 25, 25, 0.6);
 }
 
 .logo-rotate-animation {
@@ -42,15 +85,15 @@
     }
 }
 
-.button-animation {
+.google-play-store-button-animation {
     animation-duration: 0.7s;
     animation-direction: alternate;
-    animation-name: button-animation;
-    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-name: google-play-store-button-animation;
 }
 
-@keyframes button-animation {
+@keyframes google-play-store-button-animation {
     0% {
         transform: translateY(0) scale(1);
         box-shadow: 0 0 0 rgba(255, 255, 255, 0.2);
@@ -84,7 +127,7 @@
     animation-direction: alternate;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    animation-name: social-icon-animation-1;
+    animation-name: social-icon-animation-2;
 }
 
 @keyframes social-icon-animation-2 {
@@ -97,7 +140,7 @@
 }
 
 .social-icon-animation-3 {
-    animation-delay: 1s;
+    animation-delay: 1.3s;
     animation-duration: 0.7s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
@@ -111,5 +154,67 @@
     }
     100% {
         transform: translateY(-5px) scale(1.05);
+    }
+}
+
+.blur-effect {
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+}
+
+.blur-effect-10px {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.phone-bg {
+    background-size: cover;
+    background-position: center;
+    background-image: url("../../public/images/phone-wallpaper.jpg");
+}
+
+.phone-blur-effect {
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+}
+
+.typing-cursor {
+    width: 3px;
+    height: 20px;
+    background: #000000;
+}
+
+.blinking {
+    animation-duration: 0.8s;
+    animation-direction: alternate;
+    animation-name: blinking-cursor;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes blinking-cursor {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.ussd-simulator-reply-action-pressed {
+    animation-duration: 0.08s;
+    animation-direction: alternate;
+    animation-name: ussd-simulator-reply-action-pressed;
+}
+
+@keyframes ussd-simulator-reply-action-pressed {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0.6;
+        transform: scale(0.80);
     }
 }
