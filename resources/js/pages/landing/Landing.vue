@@ -41,7 +41,7 @@
 
         <div class="flex items-center justify-center space-x-8 bg-linear-to-r from-indigo-400 via-indigo-100 to-indigo-400 py-6">
 
-            <span class="italic font-semibold">As Seen On ...</span>
+            <span class="text-black italic font-semibold">As Seen On ...</span>
 
             <a href="https://www.africanimpact.ca" target="_blank">
                 <img class="h-20" :src="'/images/african-impact.webp'" alt="African Impact" />

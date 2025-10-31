@@ -12,7 +12,7 @@
     ]
   },
   "resources/js/app.js": {
-    "file": "assets/app-Bv5RFVYx.js",
+    "file": "assets/app-CVDcvjQT.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
@@ -23,7 +23,7 @@
     ]
   },
   "resources/js/layouts/website/Website.vue": {
-    "file": "assets/Website-DNLlC6eH.js",
+    "file": "assets/Website-P7h2To0c.js",
     "name": "Website",
     "src": "resources/js/layouts/website/Website.vue",
     "isDynamicEntry": true,
@@ -33,7 +33,7 @@
     ]
   },
   "resources/js/pages/error/404.vue": {
-    "file": "assets/404-CebGQkJ_.js",
+    "file": "assets/404-C_G93AdR.js",
     "name": "404",
     "src": "resources/js/pages/error/404.vue",
     "isDynamicEntry": true,
@@ -43,7 +43,7 @@
     ]
   },
   "resources/js/pages/landing/Landing.vue": {
-    "file": "assets/Landing-Cc7PLdW-.js",
+    "file": "assets/Landing-kLldcMJJ.js",
     "name": "Landing",
     "src": "resources/js/pages/landing/Landing.vue",
     "isDynamicEntry": true,
@@ -52,7 +52,7 @@
       "__plugin-vue_export-helper-DlAUqK2U.js"
     ],
     "css": [
-      "assets/Landing--2UyMA1N.css"
+      "assets/Landing-6ozRi6F1.css"
     ]
   }
 }
