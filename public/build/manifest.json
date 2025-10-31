@@ -1,0 +1,58 @@
+{
+  "__plugin-vue_export-helper-DlAUqK2U.js": {
+    "file": "assets/_plugin-vue_export-helper-DlAUqK2U.js",
+    "name": "_plugin-vue_export-helper"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-OEDb5_Jb.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-Bv5RFVYx.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/layouts/website/Website.vue",
+      "resources/js/pages/landing/Landing.vue",
+      "resources/js/pages/error/404.vue"
+    ]
+  },
+  "resources/js/layouts/website/Website.vue": {
+    "file": "assets/Website-DNLlC6eH.js",
+    "name": "Website",
+    "src": "resources/js/layouts/website/Website.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ]
+  },
+  "resources/js/pages/error/404.vue": {
+    "file": "assets/404-CebGQkJ_.js",
+    "name": "404",
+    "src": "resources/js/pages/error/404.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ]
+  },
+  "resources/js/pages/landing/Landing.vue": {
+    "file": "assets/Landing-Cc7PLdW-.js",
+    "name": "Landing",
+    "src": "resources/js/pages/landing/Landing.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ],
+    "css": [
+      "assets/Landing--2UyMA1N.css"
+    ]
+  }
+}
